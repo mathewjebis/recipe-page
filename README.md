@@ -10,8 +10,8 @@ This is my solution to the **Recipe Page** challenge on Frontend Mentor. The goa
 
 ### Links
 
-- Solution URL: Add your GitHub repository link here
-- Live Site URL: Add your live site link here
+- Solution URL: https://github.com/mathewjebis/recipe-page
+- Live Site URL: https://mathewjebis.github.io/recipe-page/
 
 ## Built With
 
