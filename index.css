@@ -59,7 +59,7 @@ body {
 }
 
 .container {
-  max-width: 736px;
+  max-width: 690px;
   margin: 0 auto;
   background-color: var(--white);
   padding: 2rem;
@@ -99,6 +99,10 @@ section {
   font-size: 1.2rem;
 }
 
+.preparation-time ul {
+  margin-block-start: 10px;
+}
+
 .ingredients h2,
 .instructions h2,
 .nutrition h2 {
@@ -127,6 +131,7 @@ ol li::marker {
   color: var(--brown-800);
   font-weight: 700;
 }
+
 hr {
   border: none;
   border-top: 1px solid var(--stone-150);
@@ -160,9 +165,10 @@ table td {
   font-weight: 700;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 375px) {
   body {
-    padding: 0;
+    padding: 10px;
+    font-size: 12px;
   }
 
   .container {
@@ -171,11 +177,20 @@ table td {
   }
 
   header,
-  main {
+  .content {
     padding: 2rem;
   }
 
   .omelette-image {
     border-radius: 0;
+  }
+
+  header {
+    padding-bottom: 0;
+  }
+
+  .preparation-time {
+    margin-top: 0;
+    padding: 12px;
   }
 }
