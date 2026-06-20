@@ -167,16 +167,15 @@ table td {
 
 @media (max-width: 375px) {
   body {
-    padding: 10px;
+    padding: 0;
     font-size: 12px;
   }
 
   .container {
     padding: 0;
-    border-radius: 1rem;
+    border-radius: 0;
   }
 
-  header,
   .content {
     padding: 2rem;
   }
@@ -188,5 +187,15 @@ table td {
   .preparation-time {
     margin-top: 0;
     padding: 12px;
+  }
+
+  .omelette-image {
+    border-radius: 0;
+  }
+
+  h1,
+  p {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
